@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import {Grid, Cell, List, ListItem, ListItemContent} from 'react-mdl';
+import profileimg from  '../images/jmprofile.jpg';
+import logo from '../images/logo.png';
 
 export default class Contact extends Component {
   render() {
@@ -9,11 +11,11 @@ export default class Contact extends Component {
           <Cell col={6}>
             <h2>Jhony Maurad</h2>
             <img
-              src="https://us.123rf.com/450wm/tuktukdesign/tuktukdesign1606/tuktukdesign160600124/59070205-user-icon-man-profile-businessman-avatar-person-icon-in-vector-illustration.jpg?ver=6"
+              src={logo}
               alt="profile"
               style={{height: '250px'}}
             />
-            <p style={{width:"75%", margin: 'auto', paddingTop: '1em'}}>lorem dkfjhasflksadhfklsjflksajfklsdjfksa</p>
+            <p style={{width:"75%", margin: 'auto', paddingTop: '1em'}}>Junior Web Developer</p>
           </Cell>
           <Cell col={6}>
             <h2>Contact Me:</h2>
@@ -30,7 +32,7 @@ export default class Contact extends Component {
                   <ListItem>
                     <ListItemContent style={{fontSize:'25px', fontFamily:'Anton'}}>
                       <i class="fas fa-envelope-square" aria-hidden= 'true'></i>
-                      jhonymaurad@gmail.com
+                      < a href="mailto:jhonymaurad@gmail.com">jhonymaurad@gmail.com< /a>          
                     </ListItemContent>
                   </ListItem>
 
