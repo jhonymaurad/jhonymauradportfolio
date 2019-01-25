@@ -10,7 +10,6 @@
   background-position:center;
   background-size: cover;
   text-align: center;
-  position: fixed;
   left: 0;
   width: 100%;
   height: 100%;
@@ -57,9 +56,9 @@
   color: black;
 }
 .profile-img{
-  height: 250px;
-  padding-top: 80px;
-  border-radius: 20px;
+  height: 200px;
+  padding-top: 10px;
+  border-radius: 30px;
 }
 .banner-text{
   background-color: black;

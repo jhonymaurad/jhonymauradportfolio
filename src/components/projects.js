@@ -23,7 +23,7 @@ export default class Projects extends Component {
           <ProjectCard
             url={connect4}
             title='Connect Four Game'
-            description='(Legend of Zelda theme) A Connect Four game developed using only JavaScript, HTML and CSS. The purpose of the site was to practice two dimensional Arrays in JavaScript and the logic behind determining winning conditions.'
+            description='A Connect Four game developed using only JavaScript, HTML and CSS. The purpose of the site was to practice two dimensional Arrays in JavaScript and the logic behind determining winning conditions.'
             linkGit='https://github.com/jhonymaurad/Connect-Four'
             linkLiveDemo='https://eight-floor.surge.sh/'
           />
@@ -35,14 +35,14 @@ export default class Projects extends Component {
           <ProjectCard
             url={exquisite}
             title='Exquiste Chronicles'
-            description='A collaborative writing application based off of the idea of Exquisite Corpse, where several people register to participate in the genre of a particular category of narrative and share in the surprise of the cumulative story.'
+            description='A collaborative writing application based off of the idea of Exquisite Corpse, where several people register to participate in the genre of a particular category of narrative and share in the surprise of the cumulative story. Built in React using Express on the back end.'
             linkGit='https://github.com/jhonymaurad/exquisite-chronicle'
             linkLiveDemo='http://exquisite-chronicle.surge.sh/'
           />
           <ProjectCard
             url={findAfriend}
             title='Find A Friend'
-            description='I want to use the The Dog API to create a website to help make the right choice about what type of dog is right for you. In the website you can search by breed from a dropdown menu. The information and a picture will be display for that specific choice of breed.'
+            description='Created a website using the Dog API and Ajax to gather the information needed to display to the user important information about the different characteristics of each breed. Built with React in the front end.'
             linkGit='https://github.com/jhonymaurad/api_dogs_project/tree/master/dog-project'
             linkLiveDemo='http://find-a-friend.surge.sh/'
           />
@@ -54,7 +54,7 @@ export default class Projects extends Component {
           <ProjectCard
             url={coachnotes}
             title='Coach Notes'
-            description='For coaches everywhere…A simple website that lets you manage and keep track of your matches, training activities and players currently coaching.The purpose of this application is to demonstrate the Rails backend and React frontend.'
+            description='Created a responsive application that allows the user to keep track of their matches, training activities and players. Built in React using Ruby on Rails on the back end.'
             linkGit='https://github.com/jhonymaurad/coachnotes'
             linkLiveDemo='https://tranquil-thicket-20809.herokuapp.com/'
           />

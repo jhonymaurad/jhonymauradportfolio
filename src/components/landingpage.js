@@ -16,7 +16,7 @@ export default class Landing extends Component {
             />
             <div className= "banner-text">
               <h3>Hello, I'm Jhony Maurad,</h3>
-              <h3>I'm a junior web developer</h3>
+              <h3>I'm a Web Developer</h3>
               <hr/>
               <p>HTML | CSS | Javascript | React | Express | Ruby | Ruby on Rails | Java </p>
               <div className="social-links">

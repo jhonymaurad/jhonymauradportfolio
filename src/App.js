@@ -21,15 +21,16 @@ class App extends Component {
                     <Link to="/contact" style={{fontSize: '20px', color: 'black'}}>Contact</Link>
                 </Navigation>
             </Header>
-            <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}}
-                          to= '/'> Jhony Maurad
+            <Drawer
+                  title={<Link style={{textDecoration: 'none', color: 'black'}}
+                  to= '/'> Jhony Maurad
                   </Link>}>
                 <Navigation>
                     <Link to="/resume" style={{fontSize: '20px', color: 'black'}}>Resume</Link>
                     <Link to="/projects" style={{fontSize: '20px', color: 'black'}}>Projects</Link>
                     <Link to="/contact" style={{fontSize: '20px', color: 'black'}}>Contact</Link>
                     <img src={logo}
-                          style={{height: '300px', width:"200px", paddingTop:"150px"}}
+                          style={{height: '250px', width:"150px", paddingTop:"15px"}}
                           alt="profile"/>
                 </Navigation>
             </Drawer>

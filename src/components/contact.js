@@ -32,7 +32,7 @@ export default class Contact extends Component {
                   <ListItem>
                     <ListItemContent style={{fontSize:'25px', fontFamily:'Anton'}}>
                       <i class="fas fa-envelope-square" aria-hidden= 'true'></i>
-                      < a href="mailto:jhonymaurad@gmail.com">jhonymaurad@gmail.com< /a>          
+                      <a href="mailto:jhonymaurad@gmail.com">jhonymaurad@gmail.com< /a>
                     </ListItemContent>
                   </ListItem>
 
@@ -40,6 +40,14 @@ export default class Contact extends Component {
                     <ListItemContent style={{fontSize:'25px', fontFamily:'Anton'}}>
                       <i class="fas fa-map-marked-alt" aria-hidden= 'true'></i>
                       Bronx - New York
+                    </ListItemContent>
+                  </ListItem>
+
+                  <ListItem>
+                    <ListItemContent style={{fontSize:'25px', fontFamily:'Anton'}}>
+                      <i class="fab fa-linkedin-in" aria-hidden= 'true'></i>
+                      <a href='http://linkedin.com/in/jhony-maurad/'>
+                      linkedin.com/in/jhony-maurad/</a>
                     </ListItemContent>
                   </ListItem>
 
